@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+* {
+    margin: 0px;
+}
+
+.images {
+    z-index: -1;
+    background: url('https://wallpaperaccess.com/full/1512223.jpg');
+    height:fit-content;
+    opacity: 0.9;
+}
+
+.button-27 {
+    appearance: none;
+    background-color: #000000;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+    will-change: transform;
+    overflow: hidden;
+}
+
+.button-27:disabled {
+    pointer-events: none;
+}
+
+.button-27:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+.button-27:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+.name {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 3rem;
+    color: aqua;
+    background-color: #FFFFFF;
+    font-family: 'Irish Grover', cursive;
+    letter-spacing: 2px;
+}
+.buttons{
+    top:0px;
+    font-size: 3rem;
+    color: aqua;
+}
+.hidden{
+    display:none;
+}
+.show{
+    display:block;
+}
+.bt1{
+    right: 200px;
+}
+.bt2{
+    right: 50px;
+}
+.bt3{
+    right: 50px;
+}
+.Login{
+    position:absolute;
+    top: 13rem;
+}
+.divs{
+    position:absolute;
+    width: 100%;
+    top: 5rem;
+    padding: 4rem;
+    opacity: 1;
+}
+.divs1{
+    padding: 0px 20rem;
+}
+.divs2{
+    position:absolute;
+    width: 100%;
+    top: 5rem;
+    padding: 3rem;
+    opacity: 1;
+}
+.divs3{
+    padding: 0px 20rem;
+}
+.imagediv{
+    width: 100%;
+    height: 100vh;
+    box-shadow:inset 0px 0px 1000px 250px #080808;
+}
+
+
+@media only screen and (max-width: 1200px){
+    .divs1{
+        padding: 0px 13rem;
+    }
+    .divs3{
+        padding: 0px 5rem;
+    }
+}
+@media only screen and (max-width: 900px){
+    .divs1{
+        padding: 0px 5rem;
+    }
+    .imagediv{
+        box-shadow:inset 0px 0px 500px 200px #080808;
+    }
+    .divs2{
+        position:absolute;
+        width: 100%;
+        top: 5rem;
+        padding: 1rem;
+        opacity: 1;
+    }
+    .divs3{
+        padding: 0px 5rem;
+    }
+}
+@media only screen and (max-width: 800px){
+    .divs2{
+        position:absolute;
+        width: 100%;
+        top: 5rem;
+        padding: 0px 5px;
+        opacity: 1;
+    }
+    .divs3{
+        padding: 0px 5rem;
+    }
+}
+@media only screen and (max-width: 600px) {
+
+    .images {
+        background: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-christian-movies-netflix-round-up-1614305697.jpg?crop=0.470xw:1.00xh;0.530xw,0&resize=640:*');
+    }
+
+    .name {
+        font-size: 30px;
+        z-index: 1;
+    }
+    .button-27{
+        padding: 0px 0px;
+        min-height: 40px;
+        width: 5rem;
+    }
+    .bt1{
+        right: 150px;
+    }
+    .bt2{
+        right: 10px;
+    }
+    .divs1{
+        padding: 0px 0rem;
+    }
+    .imagediv{
+        box-shadow:inset 0px 0px 500px 100px #080808;
+    }
+    .buttons{
+        border:2px solid red;
+    }
+}
+@media only screen and (max-width: 500px){
+    .name {
+        font-size: 18px;
+        top: 20px;
+    }
+    .button-27{
+        padding: 0px 0px;
+        min-height: 40px;
+        min-width: 70;
+    }
+    .bt1{
+        right:100px;
+    }
+    .bt2{
+        right: 10px;
+    }
+    .divs{
+        padding: 2rem;
+    }
+    .imagediv{
+        box-shadow:inset 2px 2px 2000px 100px #080808;
+    }
+    .divs2{
+        position:absolute;
+        width: 100%;
+        top: 3.5rem;
+        padding: 0px 5px;
+        opacity: 1;
+    }
+    .divs3{
+        padding: 0px 2rem;
+    }
+}

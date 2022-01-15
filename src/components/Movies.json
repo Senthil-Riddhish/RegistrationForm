@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "image":"./hero-1.jpg",
+        "title":"Bell bottom",
+        "actor":"Ashkay Kumar"
+    },
+    {
+        "id":2,
+        "image":"./hero-2.jpg",
+        "title":"Venom",
+        "actor":"Ashkay Kumar"
+    },
+    {
+        "id":3,
+        "image":"./mh.jpg",
+        "title":"Hero",
+        "actor":"Siva Karthikeyan"
+    },
+    {
+        "id":4,
+        "image":"./ven.jpg",
+        "title":"Thappad",
+        "actor":"Tapsee khan"
+    }
+]
