@@ -1,15 +1,15 @@
-# TradeMarkia Weather🌤🌤
+# Streamify HomePage :movie_camera: RIDDHISHWAR S [20BDS0001]
 ## Live Website Link
-https://weather-check-lemon.vercel.app/
+https://streamify-app.vercel.app/login
 ### Play the video to review the App ###
-[screen-capture.webm](https://user-images.githubusercontent.com/82893678/219559272-68917e46-26b4-4ca9-bde6-9c5b910a1d5f.webm)
+[screen-capture (2).webm](https://user-images.githubusercontent.com/82893678/227492115-ec25cb76-dd84-43a2-a91a-98fadd636c9f.webm)
 
 ## Instructions
 
 First clone this repository.
 
 ```bash
-$ git clone https://github.com/Senthil-Riddhish/Trademarkia-Task.git
+$ git clone https://github.com/Senthil-Riddhish/RegistrationForm.git
 ```
 Install dependencies. Make sure you already have [`nodejs`](https://nodejs.org/en/) & [`npm`](https://www.npmjs.com/) installed in your system.
 
@@ -28,7 +28,6 @@ You may also see any lint errors in the console.
 - Reactjs
 - React Hooks
 - Display API Data Using fetch with React
-- [WEATHER API](https://www.weatherapi.com/)
 
 #### Design Properties ####
 - CSS (Cascading Style Sheets)
@@ -36,12 +35,11 @@ You may also see any lint errors in the console.
 - React Bootstrap
 
 #### Functionalit ####
-- Users can able to search for a citiy and view the current weather conditions, such as temperature, wnd speed, and humidity
-- Users can able to view a 10-day forecast for the selected city, displaying the available weather conditions data for each day
+- Users can able to register and login into the portal using using the credentials
+
+#### DataBase ####
+- Used Firebase as a database as a Backend as service
 
 #### Technical Insights ####
-- Used React.js for the front-end development
-- Used a weather API to fetch weather data. Suggested APIs include Weather API 
-- Used LocalStorage to save user preferences and settings
 - Used JavaScript promises to handle asynchronous data fetching and updating
 - Used clean and modular architecture to make the codebase easy to maintain and extend
