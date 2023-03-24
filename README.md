@@ -43,3 +43,9 @@ You may also see any lint errors in the console.
 #### Technical Insights ####
 - Used JavaScript promises to handle asynchronous data fetching and updating
 - Used clean and modular architecture to make the codebase easy to maintain and extend
+
+#### Clips of firebase ####
+![image](https://user-images.githubusercontent.com/82893678/227497257-5b738e96-7cee-499b-a9d2-38547489e327.png)
+Users Information
+![image](https://user-images.githubusercontent.com/82893678/227497440-5da40011-1d64-4344-9626-8c74f450d969.png)
+
