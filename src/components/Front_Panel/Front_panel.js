@@ -69,7 +69,7 @@ function Front_panel() {
                             isEmailVerify(false);
                         }
                       });
-                    if (email_verify) { return <div><div>Your Email has not been Verified . Please click the button to verify</div><div><Button variant="primary" onClick={() => func()}>Primary</Button></div></div> }
+                    //if (email_verify) { return <div><div>Your Email has not been Verified . Please click the button to verify</div><div><Button variant="primary" onClick={() => func()}>Primary</Button></div></div> }
                 }
                 )()}
             </div>
